@@ -386,20 +386,37 @@ header#hiding {
   color: white;
 }
 
-/* .mission__container .bottom__content .bottom__content__header {
-  font-size: 2rem;
+.mission__container .bottom__content .bottom__content__header {
+  font-size: 2.4rem;
   text-align: left;
   margin: 0 2rem 1.3rem 0;
   font-weight: 600;
   color: white;
   line-height: 3.7rem;
-} */
+}
 
-.mission__container .bottom__content .bottom__content__subheader {
+/* .mission__container .bottom__content .bottom__content__subheader {
   font-size: 1.3rem;
   color: white;
   margin-bottom: 12px;
+} */
+
+.mission__container .bottom__content .bottom__content__subheader {
+  font-size: 1.4rem;
+  text-align: left;
+  margin-bottom: -7px;
+  margin: 0 2rem 1.3rem 0;
+  font-weight: 600;
+  color: white;
+  line-height: 3.7rem;
 }
+
+/* .mission__container .bottom__content .bottom__content__subheader {
+  font-size: 1.3rem;
+  color: white;
+  margin-right: 37px;
+  margin-bottom: 12px;
+} */
 
 .mission__container .bottom__content .content__button {
   border: 2px solid white;
@@ -475,7 +492,8 @@ header#hiding {
   font-size: 1.3rem;
   color: white;
   margin-right: 37px;
-  margin-bottom: 12px;
+  margin-bottom: -7px;
+  /* margin-bottom: px; */
 }
 
 .mission__container .bottom__contenttwo .content__buttontwo {
@@ -541,6 +559,7 @@ header#hiding {
   justify-content: space-between;
   align-items: center;
   margin: auto;
+  margin-top: -20px;
 }
 
 .thirdline {
@@ -593,6 +612,40 @@ header#hiding {
     padding: 0.8rem 2rem;
   }
 
+  .mission__container .bottom__contenttwo .bottom__content__headertwo {
+    font-size: 1.6rem;
+    text-align: right;
+    margin: 0 2rem 1.3rem 0;
+    font-weight: 600;
+    color: white;
+    line-height: 3.7rem;
+  }
+
+  .mission__container .bottom__contenttwo .bottom__content__subheadertwo {
+    font-size: 1rem;
+    color: white;
+    margin-right: 37px;
+    margin-bottom: 15px;
+    /* margin-bottom: px; */
+  }
+
+  .mission__container .bottom__content .bottom__content__header {
+    font-size: 1.6rem;
+    text-align: left;
+    margin: 0 2rem 1.3rem 0;
+    font-weight: 600;
+    color: white;
+    line-height: 3.4rem;
+  }
+
+  .mission__container .bottom__content .bottom__content__subheader {
+    font-size: 1rem;
+    color: white;
+    margin-right: 37px;
+    /* margin-bottom: 15px; */
+    /* margin-bottom: px; */
+  }
+
 }
 
 @media screen and (min-width: 600px) {
@@ -621,7 +674,7 @@ header#hiding {
 
   .mission__container .bottom__content {
     left: 4rem;
-    max-width: 600px;
+    max-width: 800px;
   }
 
   /* .mission__container .bottom__content .bottom__content__header {
@@ -629,9 +682,9 @@ header#hiding {
     margin: 1rem 0;
   } */
 
-  .mission__container .bottom__content .bottom__content__subheader {
+  /* .mission__container .bottom__content .bottom__content__subheader {
     font-size: 1.5rem;
-  }
+  } */
 
   .footer .footer__list {
     width: 60%;
