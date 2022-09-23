@@ -590,6 +590,17 @@ header#hiding {
 }
 
 @media screen and (min-width: 300px) {
+  .buttond {
+    background: #cd9c35;
+    border: none;
+    margin-left: 30px;
+    padding: 0.8rem 2rem;
+  }
+
+  .mission__container .bottom__content {
+    bottom: 15%;
+    left: 3rem;
+  }
 
   .buttond {
     background: #cd9c35;
@@ -597,9 +608,142 @@ header#hiding {
     margin-left: 30px;
     padding: 0.8rem 2rem;
   }
+
+  .mission__container .bottom__contenttwo .bottom__content__headertwo {
+    font-size: 1.6rem;
+    text-align: right;
+    margin: 0 2rem 1.3rem 0;
+    font-weight: 600;
+    color: white;
+    line-height: 3.7rem;
+  }
+
+  .mission__container .bottom__contenttwo .bottom__content__subheadertwo {
+    font-size: 1rem;
+    color: white;
+    margin-right: 37px;
+    margin-bottom: 15px;
+    /* margin-bottom: px; */
+  }
+
+  .mission__container .bottom__content .bottom__content__header {
+    font-size: 1.6rem;
+    text-align: left;
+    margin: 0 2rem 1.3rem 0;
+    font-weight: 600;
+    color: white;
+    line-height: 3.4rem;
+  }
+
+  .mission__container .bottom__content .bottom__content__subheader {
+    font-size: 1rem;
+    color: white;
+    margin-right: 37px;
+    /* margin-bottom: 15px; */
+    /* margin-bottom: px; */
+  }
+
 }
 
 @media screen and (min-width: 400px) {
+  .mission__container .bottom__content {
+    bottom: 15%;
+    left: 3rem;
+  }
+
+  .buttond {
+    background: #cd9c35;
+    border: none;
+    margin-left: 30px;
+    padding: 0.8rem 2rem;
+  }
+
+  .mission__container .bottom__contenttwo .bottom__content__headertwo {
+    font-size: 1.6rem;
+    text-align: right;
+    margin: 0 2rem 1.3rem 0;
+    font-weight: 600;
+    color: white;
+    line-height: 3.7rem;
+  }
+
+  .mission__container .bottom__contenttwo .bottom__content__subheadertwo {
+    font-size: 1rem;
+    color: white;
+    margin-right: 37px;
+    margin-bottom: 15px;
+    /* margin-bottom: px; */
+  }
+
+  .mission__container .bottom__content .bottom__content__header {
+    font-size: 1.6rem;
+    text-align: left;
+    margin: 0 2rem 1.3rem 0;
+    font-weight: 600;
+    color: white;
+    line-height: 3.4rem;
+  }
+
+  .mission__container .bottom__content .bottom__content__subheader {
+    font-size: 1rem;
+    color: white;
+    margin-right: 37px;
+    /* margin-bottom: 15px; */
+    /* margin-bottom: px; */
+  }
+
+}
+
+@media screen and (min-width: 500px) {
+  .mission__container .bottom__content {
+    bottom: 15%;
+    left: 3rem;
+  }
+
+  .buttond {
+    background: #cd9c35;
+    border: none;
+    margin-left: 30px;
+    padding: 0.8rem 2rem;
+  }
+
+  .mission__container .bottom__contenttwo .bottom__content__headertwo {
+    font-size: 1.6rem;
+    text-align: right;
+    margin: 0 2rem 1.3rem 0;
+    font-weight: 600;
+    color: white;
+    line-height: 3.7rem;
+  }
+
+  .mission__container .bottom__contenttwo .bottom__content__subheadertwo {
+    font-size: 1rem;
+    color: white;
+    margin-right: 37px;
+    margin-bottom: 15px;
+    /* margin-bottom: px; */
+  }
+
+  .mission__container .bottom__content .bottom__content__header {
+    font-size: 1.6rem;
+    text-align: left;
+    margin: 0 2rem 1.3rem 0;
+    font-weight: 600;
+    color: white;
+    line-height: 3.4rem;
+  }
+
+  .mission__container .bottom__content .bottom__content__subheader {
+    font-size: 1rem;
+    color: white;
+    margin-right: 37px;
+    /* margin-bottom: 15px; */
+    /* margin-bottom: px; */
+  }
+
+}
+
+@media screen and (min-width: 700px) {
   .mission__container .bottom__content {
     bottom: 15%;
     left: 3rem;
