@@ -526,7 +526,7 @@ header#hiding {
 
 .col2 {
     flex-basis: 70%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-left: 70px;
 }
 
@@ -558,7 +558,8 @@ header#hiding {
 
 .wwa2 {
     flex-basis: 60%;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: 5rem;
 }
 
 .wwa2 p {
@@ -871,7 +872,7 @@ header#hiding {
 
     .col2 {
         flex-basis: 70%;
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         padding-left: 0;
     }
 
