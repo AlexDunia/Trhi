@@ -469,7 +469,7 @@ header#hiding {
    border-radius: 10px;
    margin: 0 10px 40px 10px;
    background: #fff;
-   box-shadow: 0 10px 10px 0 rgb(68 88 144 / 10%);
+   box-shadow: 0 10px 10px 0 rgb(68 88 144 / 6%);
 }
 
 .trustdiv img {
