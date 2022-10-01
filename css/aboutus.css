@@ -72,17 +72,23 @@ h2 {
 /* Donate side. We will move it later */
 
 .ro {
-    text-align: center;
     align-items: center;
-    color: #cd9c35;
     margin-top: 80px;
     margin-bottom: 30px;
-    font-size: 1.2rem;
-    line-height: 4.7rem;
+    font-size: 0.9rem;
+    line-height: 4rem;
+}
+
+.roflex {
+    display: flex;
+    justify-content: space-around;
+    width: 89%;
+    margin: auto;
+    margin-top: 70px;
 }
 
 .rolink {
-    color: #cd9c35;
+    color: black;
     text-decoration: underline;
 }
 
@@ -897,7 +903,7 @@ header#hiding {
     }
 
     .hope h2 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 2.5rem;
         margin: auto;
         align-items: center;
@@ -921,7 +927,7 @@ header#hiding {
     .items {
         display: block;
         margin-top: 60px;
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin: auto;
         width: 89%;
     }
