@@ -69,66 +69,6 @@ h2 {
     margin-bottom: 35px;
 }
 
-/* Donate side. We will move it later */
-
-.ro {
-    align-items: center;
-    margin-top: 80px;
-    margin-bottom: 30px;
-    font-size: 0.9rem;
-    line-height: 4rem;
-}
-
-.roflex {
-    display: flex;
-    justify-content: space-around;
-    width: 89%;
-    margin: auto;
-    margin-top: 70px;
-}
-
-.rolink {
-    color: black;
-    text-decoration: underline;
-}
-
-.rolink:hover {
-    color: blue;
-    text-decoration: underline;
-}
-
-.buttonp {
-    background: #cd9c35;
-    border: none;
-    padding: 0.9rem 2rem;
-}
-
-.buttonptext {
-    background: #cd9c35;
-    font-size: 20px;
-    color: white;
-    border: none;
-}
-
-.trustdivmain {
-    display: flex;
-    width: 95%;
-    margin: auto;
-    margin-top: 50px;
-    justify-content: space-around;
-}
-
-.trustdiv {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-}
-
-.trustdiv img {
-    margin-right: 30px;
-}
-
 body {
     font-family: 'Libre Baskerville',
         serif;
