@@ -359,8 +359,8 @@ header#hiding {
 }
 
 .formcontrol input {
-    width: 100%;
-    padding: 13px 20px;
+    width: 85%;
+    padding: 8px 20px;
     margin: 20px 0;
     display: block;
     border: 0.8px solid #ccc;
@@ -369,7 +369,7 @@ header#hiding {
 }
 
 .formcontrol textarea {
-    width: 100%;
+    width: 85%;
     padding: 8px 20px;
     margin: 20px 0;
     display: block;
@@ -526,10 +526,12 @@ header#hiding {
 
     .formcontrol input {
         padding: 13px 0px;
+        width: 100%;
     }
 
     .formcontrol textarea {
         padding: 8px 0px;
+        width: 100%;
     }
 
     /* .mission__container .bottom__content .bottom__content__header {
