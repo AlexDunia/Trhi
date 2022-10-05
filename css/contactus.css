@@ -7,6 +7,68 @@ body {
         serif;
 }
 
+footer {
+    background: #cd9c35;
+    margin-top: 20px;
+    font-family: poppins;
+}
+
+.ffflex {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin: auto;
+    width: 89%;
+}
+
+.firstaxis {
+    color: #ebebeb;
+}
+
+.firstaxis h2 {
+    font-size: 18px;
+}
+
+.firstaxis p {
+    font-size: 15px;
+    line-height: 2;
+    color: white;
+}
+
+.secondaxis {
+    color: #ebebeb;
+}
+
+.secondaxis h2 {
+    font-size: 18px;
+}
+
+.secondaxis p {
+    font-size: 12px;
+    line-height: 2;
+    color: #bbbab9;
+}
+
+.fbg {
+    background: #cd9c35;
+    padding-top: 5px;
+    font-family: 'Millik';
+    /* padding-bottom: 80px; */
+}
+
+.secondaxis img {
+    margin-bottom: 20px;
+}
+
+.secondaxis li {
+    margin-bottom: 20px;
+}
+
+.fflex {
+    display: flex;
+}
+
 a {
     text-decoration: none;
 }
@@ -513,6 +575,14 @@ header#hiding {
     .mission__container .bottom__content {
         left: 4rem;
         max-width: 600px;
+    }
+
+    .ffflex {
+        display: block;
+    }
+
+    .firstaxis {
+        margin-left: 40px;
     }
 
 
