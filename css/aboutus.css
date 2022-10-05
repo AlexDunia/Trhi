@@ -409,6 +409,24 @@ header#hiding {
     padding-top: 100px;
 }
 
+.reveal {
+    /* position: relative; */
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
 .wwaflex {
     display: flex;
     justify-content: space-around;
@@ -579,6 +597,7 @@ header#hiding {
 
 .hope {
     margin-top: 170px;
+    animation: slide 12s steps(4) infinite;
 }
 
 .hope h2 {
