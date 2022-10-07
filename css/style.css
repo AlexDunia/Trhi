@@ -382,7 +382,7 @@ header#hiding {
   overflow: hidden;
   opacity: 0;
   transform: translateY(-100%);
-  transition: opacity 1s, transform 1s;
+  transition: opacity 1s, transform 2s;
   color: white;
 }
 
@@ -909,6 +909,11 @@ header#hiding {
   .mission__containerone .bottom__contentone {
     left: 4rem;
     max-width: 800px;
+  }
+
+  mission__container .bottom__contentone .bottom__content__headerone {
+    font-size: 3rem;
+
   }
 
   /* .mission__container .bottom__content .bottom__content__header {
