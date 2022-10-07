@@ -635,6 +635,10 @@ header#hiding {
     margin-left: 30px;
     padding: 0.8rem 2rem;
   }
+
+  .mission__container .bottom__contentone .bottom__content__headerone {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (min-width: 300px) {
@@ -648,6 +652,10 @@ header#hiding {
   .mission__container .bottom__content {
     bottom: 15%;
     left: 3rem;
+  }
+
+  .mission__container .bottom__contentone .bottom__content__headerone {
+    font-size: 3rem;
   }
 
   .mission__containerone .bottom__contentone {
@@ -709,6 +717,10 @@ header#hiding {
     left: 3rem;
   }
 
+  .mission__container .bottom__contentone .bottom__content__headerone {
+    font-size: 3rem;
+  }
+
   .buttond {
     background: #cd9c35;
     border: none;
@@ -756,6 +768,10 @@ header#hiding {
   .mission__container .bottom__content {
     bottom: 15%;
     left: 3rem;
+  }
+
+  .mission__container .bottom__contentone .bottom__content__headerone {
+    font-size: 3rem;
   }
 
   .mission__containerone .bottom__contentone {
@@ -810,6 +826,10 @@ header#hiding {
   .mission__container .bottom__content {
     bottom: 15%;
     left: 3rem;
+  }
+
+  .mission__container .bottom__contentone .bottom__content__headerone {
+    font-size: 4rem;
   }
 
   .mission__containerone .bottom__contentone {
@@ -883,6 +903,10 @@ header#hiding {
     left: 3rem;
   }
 
+  .mission__container .bottom__contentone .bottom__content__headerone {
+    font-size: 4rem;
+  }
+
   .mission__containerone .bottom__contentone {
     bottom: 15%;
     left: 3rem;
@@ -911,10 +935,7 @@ header#hiding {
     max-width: 800px;
   }
 
-  mission__container .bottom__contentone .bottom__content__headerone {
-    font-size: 3rem;
 
-  }
 
   /* .mission__container .bottom__content .bottom__content__header {
     font-size: 2.5rem;
