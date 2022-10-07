@@ -415,7 +415,7 @@ header#hiding {
   /* margin: 0 2rem 1.3rem 0; */
   font-weight: 600;
   color: white;
-  line-height: 4rem;
+  line-height: 4.5rem;
 }
 
 /* .mission__container .bottom__contentone .bottom__content__headerone {
@@ -925,9 +925,9 @@ header#hiding {
     left: 3rem;
   }
 
-  .mission__container .bottom__contentone {
+  /* .mission__container .bottom__contentone {
     bottom: 30%;
-  }
+  } */
 
   .mission__container .bottom__contentone .bottom__content__headerone {
     font-size: 4rem;
