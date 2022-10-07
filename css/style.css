@@ -415,7 +415,7 @@ header#hiding {
   /* margin: 0 2rem 1.3rem 0; */
   font-weight: 600;
   color: white;
-  line-height: 5.9rem;
+  line-height: 4rem;
 }
 
 /* .mission__container .bottom__contentone .bottom__content__headerone {
@@ -636,12 +636,21 @@ header#hiding {
     padding: 0.8rem 2rem;
   }
 
+  .mission__container .bottom__contentone {
+    bottom: 30%;
+  }
+
   .mission__container .bottom__contentone .bottom__content__headerone {
     font-size: 3rem;
   }
 }
 
 @media screen and (min-width: 300px) {
+
+  .mission__container .bottom__contentone {
+    bottom: 25%;
+  }
+
   .buttond {
     background: #cd9c35;
     border: none;
@@ -707,6 +716,11 @@ header#hiding {
 }
 
 @media screen and (min-width: 400px) {
+
+  .mission__container .bottom__contentone {
+    bottom: 25%;
+  }
+
   .mission__container .bottom__content {
     bottom: 15%;
     left: 3rem;
@@ -770,6 +784,10 @@ header#hiding {
     left: 3rem;
   }
 
+  .mission__container .bottom__contentone {
+    bottom: 20%;
+  }
+
   .mission__container .bottom__contentone .bottom__content__headerone {
     font-size: 3rem;
   }
@@ -826,6 +844,10 @@ header#hiding {
   .mission__container .bottom__content {
     bottom: 15%;
     left: 3rem;
+  }
+
+  .mission__container .bottom__contentone {
+    bottom: 20%;
   }
 
   .mission__container .bottom__contentone .bottom__content__headerone {
@@ -901,6 +923,10 @@ header#hiding {
   .mission__container .bottom__content {
     bottom: 15%;
     left: 3rem;
+  }
+
+  .mission__container .bottom__contentone {
+    bottom: 30%;
   }
 
   .mission__container .bottom__contentone .bottom__content__headerone {
