@@ -31,7 +31,7 @@ html {
    background-position: center;
    background-repeat: no-repeat;
    width: 100%;
-   height: 115vh;
+   height: 108vh;
    /* padding: 70px 0 120px 0; */
    background-image: url(../images/child1bg.jpg);
    margin-top: 100px;
@@ -652,7 +652,7 @@ header#hiding {
 
 .slidetextt {
 
-   padding-top: 130px;
+   padding-top: 90px;
 }
 
 .slidetextt p {
@@ -726,7 +726,17 @@ header#hiding {
    }
 }
 
-@media screen and (min-width: 300px) {
+@media (min-width: 280px) {
+   /* .slidetextt h1 {
+      align-items: center;
+      margin: auto;
+      color: white;
+      text-align: center;
+      font-weight: 900;
+      margin-top: 100px;
+      font-size: 10px;
+      margin-bottom: 20px;
+   } */
 
    .buttond {
       background: #cd9c35;
@@ -736,10 +746,35 @@ header#hiding {
    }
 }
 
-@media screen and (min-width: 600px) {
-   .mission__container .bottom__content {
-      bottom: 15%;
-      left: 3rem;
+@media screen and (man-width: 600px) {
+   .slidetext h2 {
+      font-size: 50px;
+      color: white;
+      padding-top: 150px;
+      line-height: 3.8rem;
+      font-weight: 400;
+   }
+
+   .slidetextt h1 {
+      align-items: center;
+      margin: auto;
+      color: white;
+      text-align: center;
+      font-weight: 900;
+      margin-top: 100px;
+      font-size: 250px;
+      margin-bottom: 20px;
+   }
+
+   .slidetextt p {
+      font-size: 15px;
+      line-height: 2.5rem;
+      align-items: center;
+      margin: auto;
+      margin-bottom: 30px;
+      color: white;
+      font-weight: 300;
+      text-align: center;
    }
 
    .header .header__logo a {
@@ -934,14 +969,178 @@ header#hiding {
    }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 600px) {
+   .slidetext h2 {
+      font-size: 50px;
+      color: white;
+      padding-top: 150px;
+      line-height: 3.8rem;
+      font-weight: 400;
+   }
+
+   .slidetextt h1 {
+      align-items: center;
+      margin: auto;
+      color: white;
+      text-align: center;
+      font-weight: 900;
+      margin-top: 100px;
+      font-size: 20px;
+      margin-bottom: 20px;
+   }
+
+   .slidetextt p {
+      font-size: 15px;
+      line-height: 2.5rem;
+      align-items: center;
+      margin: auto;
+      margin-bottom: 30px;
+      color: white;
+      font-weight: 300;
+      text-align: center;
+   }
+
+   .slidetextt {
+      padding-top: 70px;
+   }
+
+   .slide2 {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 50vh;
+      /* padding: 70px 0 120px 0; */
+      background-image: url(../images/child1bg.jpg);
+      margin-top: 100px;
+   }
+}
+
+@media (max-width: 800px) {
    .ffflex {
       display: block;
    }
 
+   .slidetext h2 {
+      font-size: 50px;
+      color: white;
+      padding-top: 150px;
+      line-height: 3.8rem;
+      font-weight: 400;
+   }
+
+   .slidetextt h1 {
+      align-items: center;
+      margin: auto;
+      color: white;
+      text-align: center;
+      font-weight: 900;
+      margin-top: 20px;
+      font-size: 40px;
+      margin-bottom: 20px;
+   }
+
+   .slidetextt p {
+      font-size: 15px;
+      line-height: 1rem;
+      align-items: center;
+      margin: auto;
+      margin-bottom: 30px;
+      color: white;
+      font-weight: 300;
+      text-align: center;
+   }
+
+   .slidetextt {
+      padding-top: 70px;
+   }
+
+   .slide2 {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 70vh;
+      /* padding: 70px 0 120px 0; */
+      background-image: url(../images/child1bg.jpg);
+      margin-top: 100px;
+   }
+
+   .lineflex {
+      display: block;
+   }
+
+   .line {
+      display: none;
+   }
+
+   .smallhead p {
+      margin-top: 40px;
+      margin-left: 0;
+      line-height: 2rem;
+      font-size: 17px;
+   }
+
+   .smallhead h4 {
+      margin-left: 0px;
+   }
+
+   .smallhead h3 {
+      margin-left: 0px;
+   }
+
+   .squareflexmain {
+      width: 89%;
+   }
+
+   .fourth {
+      padding-top: 5px;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+      margin-top: 130px;
+      background: #F7F6F6;
+   }
+
+   .thirdcontainer {
+      width: 85%;
+      margin: auto;
+      margin-top: 50px;
+   }
+
+   .navigation__menu.open ul li {
+      /* opacity: 1; */
+      margin-bottom: 40px;
+      margin-left: 30px;
+      transform: translateY(0);
+   }
+
+   .underherobutton button {
+      display: none;
+   }
+
+   .secondaxis {
+      color: #ebebeb;
+      margin-left: 33px;
+   }
+
+   .underhero p {
+      margin-top: 13px;
+      font-size: 18px;
+   }
+
+   br {
+      display: none;
+   }
+
+   .things .teengoals {
+      font-weight: bolder;
+      font-size: 19px;
+      padding-right: 10px;
+   }
+
    .third {
       display: block;
-      margin-left: 20px;
+      margin-left: 0;
       justify-content: space-between;
    }
 
