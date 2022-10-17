@@ -123,7 +123,15 @@ header#hiding {
 
 .header.show .header__inner {
     opacity: 1;
-    background: black;
+    background: #282C32;
+}
+
+.firstaxis img {
+    margin-bottom: 40px;
+}
+
+.secondaxis li a {
+    color: white;
 }
 
 .header .background {
@@ -689,5 +697,12 @@ header#hiding {
         color: #212529;
         margin-top: 80px;
         opacity: 0.7;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .secondaxis h2 {
+        font-size: 18px;
+        margin-top: 30px;
     }
 }

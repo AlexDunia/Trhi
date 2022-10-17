@@ -130,11 +130,11 @@ header#hiding {
 
 .header.show .header__inner {
    opacity: 1;
-   background: black;
+   background: #282C32;
 }
 
 .header .background {
-   background: black;
+   background: #282C32;
    position: absolute;
    top: 0;
    left: 0;
