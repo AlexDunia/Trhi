@@ -46,6 +46,25 @@ html {
    /* padding: 70px 0 120px 0; */
    background-image: url(../images/bg1.jpg);
    margin-top: 50px;
+   animation: animate 10s ease-in-out infinite;
+}
+
+@keyframes animate {
+   0% {
+      background-image: url(../images/bg1.jpg);
+   }
+
+   50% {
+      background-image: url(../images/child3.jpg);
+   }
+
+   /* 50% {
+      background-image: url(../images/bgimg4.jpg);
+   }
+
+   100% {
+      background-image: url(../images/slide1.jpg);
+   } */
 }
 
 ul {
